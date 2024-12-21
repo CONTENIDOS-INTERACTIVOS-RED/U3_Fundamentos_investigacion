@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde sus inicios, las ciencias sociales han sido una herramienta esencial para comprender y analizar los fenómenos que moldean nuestra sociedad. En esta unidad, se estudia qué es la investigación en ciencias sociales, sus características fundamentales, y el papel que desempeñan las diferentes metodologías en la generación de conocimiento. A través de un enfoque práctico y reflexivo, exploraremos cómo los investigadores abordan problemas complejos, integrando perspectivas críticas y éticas que enriquecen el análisis social y cultural de nuestra realidad.
+              p.descripcion.mb-4 Desde su surgimiento, las ciencias sociales han buscado comprender los fenómenos que afectan a individuos y sociedades. En esta unidad, Fundamentos de Investigación en Ciencias Sociales, exploraremos las técnicas y métodos que permiten investigar estos fenómenos de manera rigurosa y ética. Nos adentraremos en los enfoques cualitativos y cuantitativos, así como en la triangulación de datos, para desarrollar investigaciones fundamentadas. Este recorrido no solo fomenta habilidades investigativas clave, sino que también prepara a los estudiantes para abordar problemáticas reales desde una perspectiva crítica y estructurada.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para iniciar un viaje hacia el entendimiento de las dinámicas humanas y sociales con rigor y profundidad!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para transformar sus conocimientos en herramientas de análisis social profundo y aplicado!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

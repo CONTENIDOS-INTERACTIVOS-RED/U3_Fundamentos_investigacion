@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción a la investigación en ciencias sociales',
+    numeroUnidad: '3',
+    tituloUnidad: 'Técnicas y métodos de investigación en ciencias sociales',
   },
   menuPrincipal: {
     menu: [
@@ -32,33 +32,54 @@ export default {
         icono: 'far fa-file-alt',
         numero: '1',
         titulo:
-          'Definición y características de la investigación en ciencias sociales',
+          'Métodos cualitativos en investigación social: entrevistas, grupos focales y observación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Entrevistas como método cualitativo',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Grupos focales en la investigación cualitativa',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'La observación como técnica de investigación cualitativa',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tipos de investigación: cualitativa, cuantitativa y mixta',
+        titulo:
+          'Métodos cuantitativos en investigación: encuestas y análisis de datos estadísticos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Investigación cualitativa',
+            titulo: 'Encuestas como método cuantitativo',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Investigación cuantitativa ',
+            titulo: 'Análisis de datos estadísticos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Investigación mixta',
+            titulo:
+              'La validación de instrumentos y las consideraciones éticas en métodos cuantitativos',
             hash: 't_2_3',
           },
         ],
@@ -67,9 +88,23 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'El papel del investigador en las ciencias sociales',
+        titulo: 'Triangulación de datos en investigaciones mixtas',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'La triangulación y su propósito',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Estudios de caso: ejemplos prácticos de triangulación en investigaciones mixtas',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -109,145 +144,180 @@ export default {
   referencias: [
     {
       referencia:
-        'Aravena, M., Kimelman, E., Micheli, B., Torrealba, R., & Zúñiga, J. (2006). Investigación educativa I.',
-      link: '',
+        'Alaminos-Fernández, A. F. (2023). Introducción a la investigación social mediante encuestas de opinión pública.',
+      link:
+        'https://rua.ua.es/dspace/bitstream/10045/133158/1/Introduccion_a_la_investigacion_social_mediante_encuestas_de_opinion_publica_UA.pdf',
     },
     {
       referencia:
-        'Ballesteros, L. M. G., Restrepo, C. G., Rodríguez, V. A., de Castro, S. F., & Ponce, M. V. (2024). Investigación mixta:¿ qué es y qué no?. Revista Colombiana de Psiquiatría.',
-      link: 'https://doi.org/10.1016/j.rcp.2024.04.002',
+        'Anastasi, A., y Urbina, S. (1997). Pruebas psicológicas. Prentice Hall.',
+      link: 'https://books.google.com.co/books?hl=es&lr=&id=FV01zgFuk0cC',
     },
     {
       referencia:
-        'Bonilla-Castro, E. (2005). Más allá del dilema de los métodos: la investigación en ciencias sociales. Editorial Norma.',
-      link: '',
+        'Babbie, E. (2000). Fundamentos de la investigación social. México: Cengage Aprendizaje.',
+      link:
+        'https://tecnicasmasseroni.wordpress.com/wp-content/uploads/2012/02/babbie-fundamentos-de-la-investigacic3b3n-social.pdf',
     },
     {
       referencia:
-        'Creswell, J. W. (2014). Research design: Qualitative, quantitative, and mixed methods approaches (4th ed.). SAGE Publications.',
-      link: '',
+        'Cohen, L., Manion, L., y Morrison, K. (2013). Métodos de investigación en educación. Routledge.',
+      link:
+        'https://www.taylorfrancis.com/books/edit/10.4324/9780203720967/research-methods-education-lawrence-manion-louis-cohen-keith-morrison',
     },
     {
       referencia:
-        'Denzin, N. K., & Lincoln, Y. S. (2011). The SAGE Handbook of Qualitative Research. SAGE Publications.',
-      link: '',
+        'Creswell, JW y Plano Clark, VL (2017). Diseño y realización de investigación de métodos mixtos. México: Pearson.',
+      link:
+        'https://es.scribd.com/document/732489855/Creswell-J-W-Plano-Clark-V-L-2017-Understanding-Mixed-Methods-Research',
     },
     {
       referencia:
-        'Flick, U. (2014). An introduction to qualitative research (5th ed.). SAGE Publications.',
-      link: '',
+        'Denzin, N. K., & Lincoln, Y. S. (Eds.). (2011). The Sage handbook of qualitative research. sage.',
+      link: 'https://books.google.es/books?hl=es&lr=&id=AIRpMHgBYqIC',
     },
     {
       referencia:
-        'Hernández-Sampieri, R., & Mendoza, C. P. (2018). Metodología de la investigación: Las rutas cuantitativa, cualitativa y mixta (6.ª ed.). McGraw Hill.',
-      link: '',
+        'Flick, U. (2014). Introducción a la investigación cualitativa. Sage Publications.',
+      link: 'https://books.google.com.co/books?id=HB-VAgAAQBAJ',
     },
     {
       referencia:
-        'Johnson, R. B., Onwuegbuzie, A. J., & Turner, L. A. (2007). Toward a definition of mixed methods research. Journal of Mixed Methods Research, 1(2), 112–133.',
-      link: 'https://doi.org/10.1177/1558689806298224',
+        'Hair, JF, Black, WC, Babin, BJ y Anderson, RE (2010). Análisis de datos multivariados. Prentice Hall.',
+      link:
+        'https://www.drnishikantjha.com/papersCollection/Multivariate%20Data%20Analysis.pdf',
     },
     {
       referencia:
-        'Patton, M. Q. (2015). Qualitative Research & Evaluation Methods. SAGE Publications.',
-      link: '',
+        'Hernández Sampieri, R., Fernández Collado, C., & Baptista Lucio, MP (2014). Metodología de la investigación. McGraw-Hill.',
+      link: 'https://books.google.com.co/books?hl=es&lr=&id=5A2QDwAAQBAJ',
+    },
+    {
+      referencia:
+        'Hidalgo, L. (2016). Confiabilidad y Validez en el Contexto de la Investigación y Evaluación Cualitativas. Sinopsis Educativa, 5(1-2), 225-243.',
+      link:
+        'http://historico.upel.edu.ve:81/revistas/index.php/sinopsis_educativa/article/view/3583',
+    },
+    {
+      referencia:
+        'Johnson, RB y Onwuegbuzie, AJ (2004). Investigación de métodos mixtos: un paradigma de investigación cuyo momento ha llegado. Investigador educativo.',
+      link: 'https://journals.sagepub.com/doi/epdf/10.3102/0013189X033007014',
+    },
+    {
+      referencia:
+        'Malhotra, NK (2008). Investigación de mercados: Un enfoque aplicado. Prentice Hall.',
+      link: 'https://books.google.es/books?hl=es&lr=&id=SLmEblVK2OQC',
+    },
+    {
+      referencia:
+        'Muñiz, J., & Fonseca-Pedrero, E. (2019). Diez pasos para la construcción de un test. Psicothema, 31(1), 7.',
+      link:
+        'https://investigacion.unirioja.es/documentos/5c55196234ada657a18c95dd/f/62c014391aa9016cd9915184.pdf',
+    },
+    {
+      referencia:
+        'Ortiz San Martín, S. D., & Rivas Peña, M. B. (2019). Estudio exploratorio-secuencial acerca de las relaciones disciplinarias en contextos terapéuticos en el programa reparatorio en maltrato del centro de asistencia a víctimas de atentados sexuales, región de Valparaíso, durante el año 2019.',
+      link:
+        'https://repositorio.uvm.cl/server/api/core/bitstreams/003746e7-7b1b-4248-8df2-5e6a339dff88/content',
+    },
+    {
+      referencia:
+        "Pérez, M. V. (2020). Ética de la investigación primera en humanos (Master's thesis, Buenos Aires).",
+      link:
+        'https://repositorio.flacsoandes.edu.ec/bitstream/10469/18736/2/TFLACSO-2020%20MVP.pdf',
+    },
+    {
+      referencia:
+        'Quispe, Q. Y., Machicao, L. V., Cora, F. N. P., & Velásquez, A. (2023). Diseños y secuencia didáctica para la investigación en un nuevo paradigma. Centro de Investigación y Desarrollo.',
+      link:
+        'https://www.researchgate.net/profile/Yan-Quispe-Quispe/publication/376647537_Septiembre_2023_-CID_-Centro_de_Investigacion_y_Desarrollo/links/65824d8e0bb2c7472bf88c7f/Septiembre-2023-CID-Centro-de-Investigacion-y-Desarrollo.pdf',
+    },
+    {
+      referencia:
+        'Sarmiento González, P., Botero Giraldo, J., & Carvajal Carrascal, G. (2013). Validez de constructo de la Escala de Medición del Proceso de Afrontamiento y Adaptación de Roy, versión modificada en español. Index de Enfermería, 22(4), 233-236.',
+      link:
+        'https://scielo.isciii.es/scielo.php?pid=S1132-12962013000300009&script=sci_arttext',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis',
+      termino: 'Análisis de contenido',
       significado:
-        'Este es el proceso de revisar y entender los datos que se han recogido. Los investigadores buscan patrones o tendencias en los datos',
+        'Técnica utilizada para interpretar y codificar la información recopilada a través de entrevistas o documentos.',
     },
     {
-      termino: 'Análisis de Contenido',
+      termino: 'Análisis estadístico',
       significado:
-        'Método cualitativo de interpretación sistemática de datos textuales, identificando patrones o temas relevantes',
+        'Proceso de aplicar técnicas para interpretar y presentar datos cuantitativos.',
     },
     {
-      termino: 'Análisis Estadístico',
+      termino: 'Categorías emergentes',
       significado:
-        'Técnica cuantitativa que examina y organiza datos numéricos para validar hipótesis o descubrir patrones',
+        'Temas o patrones que surgen de los datos cualitativos durante el análisis.',
     },
     {
-      termino: 'Codificación',
-      significado:
-        'Proceso de categorizar datos cualitativos para identificar patrones y conceptos en el análisis de información recopilada',
+      termino: 'Correlación',
+      significado: 'Medida que describe la relación entre dos o más variables.',
     },
     {
-      termino: 'Datos',
+      termino: 'Encuesta',
       significado:
-        'Los datos son la información que se recopila durante la investigación. Pueden ser números, palabras o imágenes que los investigadores analizan para sacar conclusiones',
+        'Método sistemático para recolectar datos numéricos a través de cuestionarios estructurados.',
     },
     {
-      termino: 'Etnografía',
+      termino: 'Entrevista',
       significado:
-        'Método cualitativo que estudia culturas y comunidades en su entorno natural a través de observación participante y entrevistas',
+        'Técnica de recolección de datos que implica una conversación estructurada o semiestructurada entre el investigador y el participante.',
     },
     {
-      termino: 'Fiabilidad',
+      termino: 'Escala de Likert',
       significado:
-        'Consistencia de los resultados en estudios cuantitativos; mide la estabilidad y repetibilidad de los resultados obtenidos',
+        'Método de medición que evalúa actitudes o percepciones en una escala de 1 a 5 o 1 a 7.',
     },
     {
-      termino: 'Hipótesis',
+      termino: 'Grupo focal',
       significado:
-        'Una hipótesis es una suposición que el investigador hace antes de comenzar su estudio. Es algo que se quiere probar o comprobar mediante la investigación',
+        'Método de recolección de datos donde se reúne un grupo reducido de personas para discutir sobre un tema específico, facilitado por un moderador.',
     },
     {
-      termino: 'Método Científico',
+      termino: 'Integración de datos',
       significado:
-        'Proceso sistemático de observación, experimentación y análisis para generar conocimiento válido y replicable',
+        'Proceso de combinar hallazgos de diferentes métodos para obtener una comprensión global.',
     },
     {
-      termino: 'Métodos de investigación',
+      termino: 'Investigación mixta',
       significado:
-        'Esto se refiere a las formas en que los investigadores obtienen información. Los métodos pueden ser cualitativos (como entrevistas) o cuantitativos (como encuestas con números)',
+        'Enfoque que combina métodos cualitativos y cuantitativos en un solo estudio.',
     },
     {
-      termino: 'Muestra',
+      termino: 'Observación participante',
       significado:
-        'Grupo seleccionado que representa la población en estudio. Puede ser probabilística o no probabilística, según el método',
+        'Estrategia en la que el investigador se involucra en el entorno o actividad que está estudiando para obtener información contextual.',
     },
     {
-      termino: 'Muestreo',
+      termino: 'Teoría fundamentada',
       significado:
-        'Proceso de selección de individuos o grupos que representan la población en estudio, esencial para generalizar resultados',
-    },
-    {
-      termino: 'Observación Participante',
-      significado:
-        'Método cualitativo donde el investigador se integra en el entorno de estudio para observar y comprender comportamientos',
-    },
-    {
-      termino: 'Paradigma',
-      significado:
-        'Conjunto de creencias y métodos que orientan la investigación, como el positivismo en cuantitativa o interpretativo en cualitativa',
-    },
-    {
-      termino: 'Teoría Fundamentada',
-      significado:
-        'Método cualitativo para desarrollar teorías a partir de los datos recolectados y analizados durante el proceso de investigación',
-    },
-    {
-      termino: 'Teoría Social',
-      significado:
-        'Marco conceptual que busca explicar y entender fenómenos sociales, como el funcionalismo o el estructuralismo',
+        'Enfoque para generar teoría a partir de datos sistemáticamente recogidos y analizados.',
     },
     {
       termino: 'Triangulación',
       significado:
-        'Uso de múltiples métodos o fuentes para asegurar la validez y confiabilidad en la investigación cualitativa y mixta',
+        'Uso de múltiples métodos o fuentes de datos para aumentar la credibilidad y validez de los hallazgos.',
     },
     {
-      termino: 'Validez',
+      termino: 'Validación',
       significado:
-        'Grado en que los resultados reflejan la realidad estudiada; importante para asegurar la precisión en ambas metodologías',
+        'Proceso de confirmar que los hallazgos de la investigación reflejan con precisión las perspectivas de los participantes.',
     },
     {
-      termino: 'Variables',
+      termino: 'Validez convergente',
       significado:
-        'Factores medibles en investigación cuantitativa que pueden variar y afectar los resultados del estudio',
+        'Grado en que diferentes métodos utilizados para medir un mismo concepto producen resultados consistentes.',
+    },
+    {
+      termino: 'Variable',
+      significado:
+        'Cualquier característica, valor o atributo que puede cambiar o variar en un estudio.',
     },
   ],
   complementario: [

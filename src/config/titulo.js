@@ -1,2 +1,2 @@
 module.exports =
-  'unidad 1: Introducción a la investigación en ciencias sociales'
+  'unidad 3: Técnicas y métodos de investigación en ciencias sociales'
