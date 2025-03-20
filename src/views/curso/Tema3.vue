@@ -100,7 +100,7 @@
           .div(titulo="Aumento de la validez")
             p Al emplear múltiples métodos o fuentes, los investigadores pueden confirmar los hallazgos obtenidos de un enfoque, con los de otro. Esto reduce el sesgo y aumenta la credibilidad de los resultados.
           .div(titulo="Comprensión profunda")
-            p Al emplear múltiples métodos o fuentes, los investigadores pueden confirmar los hallazgos obtenidos de un enfoque, con los de otro. Esto reduce el sesgo y aumenta la credibilidad de los resultados.
+            p La triangulación permite a los investigadores explorar un fenómeno desde diferentes ángulos. Por ejemplo, las encuestas pueden proporcionar datos cuantitativos, mientras que las entrevistas pueden ofrecer una comprensión más detallada de las experiencias de los participantes.
           .div(titulo="Identificación de contradicciones")
             p El uso de múltiples fuentes puede revelar inconsistencias en los datos. Estas contradicciones pueden abrir nuevas líneas de investigación y proporcionar una comprensión más enriquecida del tema en cuestión.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
@@ -174,7 +174,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
-
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 </template>
 
 <script>
@@ -184,6 +187,102 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Métodos de Investigación y Recolección de Datos',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'La triangulación de datos en investigaciones mixtas permite contrastar resultados de diferentes enfoques, mejorando la ____________. Esta técnica es clave en investigaciones mixtas, ya que fortalece la confianza en los hallazgos al corroborar datos mediante múltiples fuentes y métodos.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Originalidad', esCorrecta: false },
+            { id: 'b', texto: 'Validez', esCorrecta: true },
+            { id: 'c', texto: 'Confiabilidad', esCorrecta: false },
+            { id: 'd', texto: 'Percepción', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'La triangulación incluye _______________ para proporcionar una visión más robusta. Limitar la triangulación solo a datos cualitativos reduce el potencial de captar múltiples perspectivas y omite la riqueza de las cifras cuantitativas en el análisis.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Datos numéricos y estadísticos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Datos empíricos y datos formales',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Datos cualitativos y cuantitativos',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Datos de observación', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Minimizar el sesgo es uno de los beneficios clave de ____________. Al combinar métodos y perspectivas, el investigador obtiene una visión más imparcial, fortaleciendo la credibilidad de los hallazgos y ampliando la objetividad del análisis.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'El análisis estadístico', esCorrecta: false },
+            { id: 'b', texto: 'El análisis documental', esCorrecta: false },
+            { id: 'c', texto: 'El análisis de contenido', esCorrecta: false },
+            { id: 'd', texto: 'La triangulación de datos', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'Las ______________ tienen un conjunto fijo de preguntas que deben seguirse sin cambios, lo que limita la flexibilidad para adaptar las preguntas o profundizar en temas emergentes. Este tipo de entrevista busca uniformidad en las respuestas para facilitar su comparación.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Entrevistas estructuradas', esCorrecta: true },
+            { id: 'b', texto: 'Listas de observación', esCorrecta: false },
+            { id: 'c', texto: 'Encuestas', esCorrecta: false },
+            { id: 'd', texto: 'Listas de chequeo', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'En ____________________, los participantes interactúan entre sí, lo que permite observar dinámicas y opiniones influenciadas por el grupo. Este método facilita la comprensión de actitudes colectivas y cómo las personas pueden cambiar sus opiniones al discutir con otros.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Las encuestas', esCorrecta: false },
+            { id: 'b', texto: 'Los grupos focales', esCorrecta: true },
+            { id: 'c', texto: 'Listas de chequeo', esCorrecta: false },
+            { id: 'd', texto: 'Observación participante', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

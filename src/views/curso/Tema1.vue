@@ -71,7 +71,7 @@
       .col-5.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7(data-aos="fade-left")
-        p.mb-4 Ahora, para conocer las características de los grupos focales, lo invitamos a escuchar el siguiente podcast.
+        p.mb-4 Ahora, para conocer las características de los grupos focales, lo invitamos a escuchar el siguiente <i>podcast</i>.
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto="Características de los grupos focales"
           tiempo

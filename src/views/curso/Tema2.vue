@@ -37,7 +37,7 @@
               div.custom-image-card.rounded-8px.pb-4
                 img.mx-auto.mb-4(src='@/assets/curso/unidad/img-23.svg', style="width: 80px")
                 p.text-bold.mb-4.text-center Objetivos de la encuesta
-                p.px-1.text-small.mb-0.d-flex.text-center  ¿Qué información se busca obtener? Por eso, el primer paso en la elaboración de una encuesta es definir, claramente, los objetivos de investigación, para que cada pregunta esté alineada con los propósitos del estudio. (Malhotra, 2008)
+                p.px-1.text-small.mb-0.d-flex.text-center Antes de crear la encuesta, se deben definir los objetivos de la investigación. ¿Qué información se busca obtener? Por eso, el primer paso en la elaboración de una encuesta es definir, claramente, los objetivos de investigación, para que cada pregunta esté alineada con los propósitos del estudio. (Malhotra, 2008)
               div.custom-image-card.rounded-8px.pb-4
                 img.mx-auto.mb-4(src='@/assets/curso/unidad/img-24.svg', style="width: 80px")
                 p.text-bold.mb-4.text-center Selección de la muestra
@@ -70,7 +70,7 @@
           img.pe-2(src='@/assets/curso/unidad/img-29.svg', style="width: 80px")
           .d-flex.flex-column
             p.text-bold.mb-4 Análisis estadístico
-            p.px-1.text-small.mb-0.d-flex Utilizando software especializado, los investigadores pueden realizar análisis descriptivos y analíticos, como tablas de frecuencia, correlaciones y regresiones.
+            p.px-1.text-small.mb-0.d-flex Utilizando <i>software</i> especializado, los investigadores pueden realizar análisis descriptivos y analíticos, como tablas de frecuencia, correlaciones y regresiones.
 
     .row.mb-4
       .col-5.d-none.d-xl-block(data-aos="fade-right")
@@ -148,7 +148,7 @@
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-34.svg', style="width: 80px")
           p.text-bold.mb-4.text-center Estadística inferencial
-          p.px-1.text-small.mb-0.d-flex.text-center Utiliza pruebas estadísticas, como la t de Student o el ANOVA, para hacer inferencias sobre la población con base en los datos de la muestra.
+          p.px-1.text-small.mb-0.d-flex.text-center Utiliza pruebas estadísticas, como la t de <i>Student</i> o el ANOVA, para hacer inferencias sobre la población con base en los datos de la muestra.
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-35.svg', style="width: 80px")
@@ -162,7 +162,7 @@
 
           p.mb-4 ●  Ventajas. Los métodos estadísticos aportan rigor y permiten realizar predicciones y comparaciones que son cruciales, para validar hipótesis.
 
-          p.mb-4 ●  Desafíos. Requieren un conocimiento profundo en estadística y metodología de investigación, y una interpretación adecuada de los 
+          p.mb-4 ●  Desafíos. Requieren un conocimiento profundo en estadística y metodología de investigación, y una interpretación adecuada de los resultados, evitando malentendidos o simplificaciones incorrectas (Cohen, 2013).
       .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
 
